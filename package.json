@@ -1,0 +1,52 @@
+{
+  "name": "itsa-surveygizmo-promise",
+  "version": "0.0.1",
+  "description": "Promise wrapper arround the surveygizmo api",
+  "author": [
+    {
+      "name": "Marco Asbreuk",
+      "email": "marco@itsasbreuk.nl"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItsAsbreuk/itsa-surveygizmo-promise"
+  },
+  "bugs": {
+    "url": "https://github.com/ItsAsbreuk/itsa-surveygizmo-promise/issues"
+  },
+  "keywords": [
+    "itsasbreuk",
+    "itsa",
+    "surveygizmp",
+    "promise"
+  ],
+  "main": "./lib/surveygizmo.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "itsa-classes": "^1.0.3",
+    "itsa-fetch": "^1.0.6",
+    "itsa-jsext": "0.0.2",
+    "itsa-utils": "0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "mocha": "^1.21.4"
+  },
+  "scripts": {
+    "lint": "eslint ./lib/*.js"
+  },
+  "maintainers": [
+    {
+      "name": "Marco Asbreuk",
+      "email": "marco@itsasbreuk.nl"
+    }
+  ],
+  "license": "BSD-3-Clause"
+}
