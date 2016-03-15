@@ -36,16 +36,15 @@ options = {
     type: "survey"
 };
 surveyGizmo.createSurvey(options)
-    .then(
-        function(response) {
-            console.log("Survey id:", response.data.id);
-        })
-    .catch(
-        function(err) {
-            console.log("err", err.message);
-        }
-    );
-};
+.then(
+    function(response) {
+        console.log("Survey id:", response.data.id);
+    })
+.catch(
+    function(err) {
+        console.log("err", err.message);
+    }
+);
 
 
 // Create a copy of an existing survey:
@@ -55,14 +54,13 @@ options = {
     type: "survey"
 };
 surveyGizmo.copySurvey(options)
-    .then(
-        function(response) {
-            console.log("Survey id:", response.data.id);
-        })
-    .catch(
-        function(err) {
-            console.log("err", err.message);
-        }
-    );
-};
+.then(
+    function(response) {
+        console.log("Survey id:", response.data.id);
+    })
+.catch(
+    function(err) {
+        console.log("err", err.message);
+    }
+);
 ```

@@ -1,6 +1,6 @@
 {
   "name": "itsa-surveygizmo-promise",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Promise wrapper arround the surveygizmo api",
   "author": [
     {
